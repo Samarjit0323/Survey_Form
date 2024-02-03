@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <title>GeeksforGeeks-Survey Form</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Web Development Course - Survey Form</h1>
+    </div>
+    <div class="out_form">
+    <div class="form">
+      <form>
+        <div class="name">
+          <div class="text_gen">Name</div>
+        </div>
+        <input
+          class="input"
+          type="text"
+          name="input_name"
+          id="input_name"
+          placeholder="Enter your name"
+        />
+        <div class="text_gen">Email</div>
+        <input
+          class="input"
+          type="text"
+          name="input_email"
+          id="input_email"
+          placeholder="Enter your Email"
+        />
+        <div class="text_gen">Age</div>
+        <input
+          type="text"
+          name="input_age"
+          id="input_age"
+          class="input"
+          placeholder="Enter your age"
+        />
+        <div class="text_gen">Which option best describes you?</div>
+        <div>
+          <select name="select" class="select" id="select">
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+        <div class="text_gen">Would you recommend this course to a friend?</div>
+        <div class="radio">
+          <input type="radio" name="radio" id="yes" value="Yes">
+          <label for="yes">Yes</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="radio" id="no" value="No">
+          <label for="No">No</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="radio" id="maybe" value="maybe">
+          <label for="maybe">Maybe</label>
+        </div>
+        <span class="text_gen">
+          Languages and Frameworks known
+        </span>
+        <span class="sub_text">(Check all that apply)</span>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="C" value="yes">
+          <label for="C">C</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="C++" value="yes">
+          <label for="C++">C++</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="C#" value="yes">
+          <label for="C#">C#</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="Java" value="yes">
+          <label for="Java">Java</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="Python" value="yes">
+          <label for="Python">Python</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="Javascript" value="yes">
+          <label for="Javascript">Javascript</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="React" value="yes">
+          <label for="React">React</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="Angular" value="yes">
+          <label for="Angular">Angular</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="Rust" value="yes">
+          <label for="Rust">Rust</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="lang" id="MongoDB" value="yes">
+          <label for="MongoDB">MongoDB</label>
+        </div>
+        <div class="text_gen">Comments or Suggestions</div>
+        <textarea class="input_com" name="comments" id="comments" rows="10" placeholder="Comment here"></textarea>
+        <div class="button">
+          <button type="button" class="input_com"> Submit</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>

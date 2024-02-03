@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Protest Riot', sans-serif;
+}
+.out_form{
+  margin: 0px;
+  padding:10px;
+  background-color: #0278ff;
+}
+.head {
+  margin: 0px;
+  padding: 28px;
+  text-align: center;
+  font-family:'Protest Riot', sans-serif;
+  font-size: 24px;
+  background-color:#0278ff;
+}
+.form {
+  background-color:white ;
+  margin: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 60vw;
+  border: 0px solid black;
+  margin-left: 250px;
+  margin-right: 250px;
+  box-shadow: 5px 5px 5px black;
+}
+.text_gen {
+  margin-top: 2.5vh;
+  padding: 10px;
+  padding-bottom: 5px;
+  font-size: 24px;
+  background: white;
+}
+
+.input {
+  padding: 9px;
+  margin: 8px;
+  border: 1px solid black;
+  background: white;
+  width: 57vw;
+  height: 4vh;
+  font-size: 17px;
+}
+.radio{
+  padding: 4px;
+  margin:12px;
+  background-color: white;
+  width: 55vw;
+  height: 3vh;
+  font-size: 19px;
+}
+.sub_text {
+    margin: 1px;
+    font-size: 14px;
+    background-color: white;
+  }
+.input_com {
+  padding: 8px;
+  margin: 15px;
+  margin-top: 4px;
+  background-color: white;
+  width: 57vw;
+  border: 1px solid black;
+  font-size: 18px;
+}
+.button > .input_com{
+    font-size: 24px;
+    background-color: #0278ff;
+    border:0px;
+    align-self: center;
+    font-family: 'Protest Riot', sans-serif;
+}
+.select{
+    margin:10px;
+    padding-left: 5px;
+  background: white;
+  width: 58vw;
+  height:7vh;
+  font-size: 16px;
+}
